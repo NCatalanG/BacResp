@@ -1,14 +1,16 @@
 # BacResp
-Models for bacterial respiration
+## Coding to build up or select the best models for bacterial respiration of lake water DOM.
 
-To load project, you'll first need to `setwd()` into the directory where this README file is located. Then you need to run the following two
+I used Project Template to organize the workflow. I hope it works well for us, but maybe you have better or clearer ideas. 
+
+To load project, you'll first need to `setwd()` into the directory where this README file is located. Then you need to run the following 
 lines of R code:
 ```
   setwd("N:/Dropbox/My Documents/GitHub/BacResp")
   library('ProjectTemplate')
   load.project()
 ```
-After you enter the second line of code, you'll see a series of automated
+After you enter the slast line of code, you'll see a series of automated
 messages as ProjectTemplate goes about doing its work. This work involves:
 * Reading in the global configuration file contained in `config`.
 * Loading any R packages you listed in the configuration file.
