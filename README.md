@@ -1,5 +1,5 @@
 # BacResp
-# Coding to build up or select the best models for bacterial respiration of lake water DOM.
+## Coding to build up or select the best models for bacterial respiration of lake water DOM.
 
 I used Project Template to organize the workflow. I hope it works well for us, but maybe you have better or clearer ideas. 
 
