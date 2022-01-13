@@ -1,15 +1,14 @@
 version: 0.10.1
 data_loading: TRUE
 data_loading_header: TRUE
-data_ignore:
+data_ignore: 
 cache_loading: TRUE
 recursive_loading: FALSE
 munging: TRUE
 logging: FALSE
 logging_level: INFO
 load_libraries: TRUE
-libraries: ggplot2
-
+libraries: ggplot2, dplyr, respR, drc, tidyverse, nlme, devtools
 as_factors: FALSE
 tables_type: tibble
 attach_internal_libraries: FALSE
