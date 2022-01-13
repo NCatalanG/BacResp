@@ -2,7 +2,7 @@
 ## Coding to build up or select the best models for bacterial respiration of lake water DOM.
 To be developed jointly with Marloes, Dolly, Ada and myself on Greenland samples, incubated during 2 weeks in uppsala University
 
-##On the use of Project Template
+##On the use of Project Template:
 
 I used Project Template to organize the workflow. I hope it works well for us, but maybe you have better or clearer ideas. 
 
