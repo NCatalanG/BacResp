@@ -24,11 +24,10 @@ You can override the values in global.dcf when loading the project by providing 
 #load.project(cache_loading = FALSE) # load the project without loading from the cache
 #reload.project(cache_loading = FALSE, # Don't load from cache
                  data_ignore = '*.tsv') # Don't load tsv files
-Specific project configuration, that can ve added to any script:
+Specific project configuration, that can be added to any script:
 #add.config(keep_data = FALSE, header = "Private & Confidential")
 
-Once that's done, you can execute any code you'd like. For every analysis
-you create, we'd recommend putting a separate file in the `src` directory.
+Once that's done, you can execute any code you'd like. For every analysis you create, we'd recommend putting a separate file in the `src` directory.
 If the files start with the two lines mentioned above:
 ```
  library('ProjectTemplate')
@@ -39,5 +38,15 @@ all of the libraries you want to use.
 
 To save a data set in the cache:
 `cache("DOM.input")`
+
+The folders have:
+* CACHE: store datasets generated during pre-processing and that dont need to be regenerated every time. 
+* CONFIG: Project Template configurations
+* DATA: raw data files. If in supportef ile format, will be automatically uploaded when load.project is run
+* DOCS: documentation about analysis.Root for Github pages. 
+* MUNGE: preprocessing or data munging code. The scripts in munge will be executed in alphabetical order when you call load.project. No headlines!
+* SRC: final analysis scripts.
+
+Once you have a data frame that we want to get loaded without munging, we can save it to `cache("dataframe")` and set munging to false in global.
 
 For more details about ProjectTemplate, see http://projecttemplate.net
