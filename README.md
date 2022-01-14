@@ -9,7 +9,6 @@ I used Project Template to organize the workflow. I hope it works well for us, b
 To load project, you'll first need to `setwd()` into the directory where this README file is located. Then you need to run the following 
 lines of R code:
 ```
-  setwd("N:/Dropbox/My Documents/GitHub/BacResp")
   library('ProjectTemplate')
   load.project()
 ```
