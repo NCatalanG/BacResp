@@ -1,5 +1,6 @@
 # BacResp
 ## Coding to build up or select the best models for bacterial respiration of lake water DOM.
+Started on 14 January 2022
 To be developed jointly with Marloes, Dolly, Ada and myself on Greenland samples, incubated during 2 weeks in uppsala University
 
 ## On the use of Project Template:
